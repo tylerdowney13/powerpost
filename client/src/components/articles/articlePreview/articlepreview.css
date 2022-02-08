@@ -1,0 +1,120 @@
+.articlePreviewContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.articlePreviewBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  width: 97%;
+}
+
+.articlePreviewTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.articlePreviewTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.articlePreviewDateCreatedContainer {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.articlePreviewDateCreatedSpan {
+  font-weight: 500;
+  color: rgb(98, 98, 98);
+}
+
+.articlePreviewImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.articlePreviewAuthorInfoContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.articlePreviewAuthorInfoProfilePictureContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.articlePreviewAuthorInfoProfilePicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.articlePreviewAuthorInfoUsernameContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.articlePreviewAuthorInfoUsername {
+  font-size: 24px;
+}
+
+.articlePreviewDescriptionContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.articlePreviewDescription {
+  font-size: 20px;
+}
+
+.articlePreviewReadMoreContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.articlePreviewReadMore {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .articlePreviewImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .articlePreviewAuthorInfoProfilePicture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .articlePreviewAuthorInfoUsername {
+    font-size: 20px;
+  }
+
+  .articlePreviewDescription {
+    font-size: 15px;
+  }
+}

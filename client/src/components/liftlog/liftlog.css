@@ -1,0 +1,98 @@
+.liftlog {
+  flex: 10;
+}
+
+.liftlogWrapper {
+  padding: 20px;
+}
+
+.liftlogTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.liftlogTitle {
+  font-size: 70px;
+  font-weight: 500;
+  color: red;
+  text-shadow: 0.05em 0.05em 0.05em black;
+}
+
+.liftlogUserInfoContainer {
+  padding: 10px 0;
+}
+
+.liftlogUserInfoBox {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+}
+
+.liftlogUserInfoBoxTitle {
+  padding-left: 30%;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.liftlogUsernameContainer {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.liftlogUsername {
+  font-weight: 500;
+  color: black;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.liftlogUserProfilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.liftlogCreateLiftlogButton {
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .liftlog {
+    flex: 10;
+    max-width: 100%;
+  }
+
+  .liftlogWrapper {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .liftlogTitleContainer {
+    max-width: 100%;
+  }
+
+  .liftlogTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    text-shadow: 0.05em 0.05em 0.05em black;
+  }
+
+  .liftlogUserInfoContainer {
+    padding: 10px 0;
+    max-width: 100%;
+  }
+
+  .liftlogUserInfoBox {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+    max-width: 100%;
+  }
+}

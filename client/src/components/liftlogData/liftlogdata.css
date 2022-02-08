@@ -1,0 +1,21 @@
+.liftlogData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .liftlogData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .liftlogDataStatHeaderDiv {
+    max-width: 900%;
+  }
+
+  .liftlogDataDataboxDiv {
+    max-width: 95%;
+  }
+}

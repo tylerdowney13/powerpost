@@ -1,0 +1,93 @@
+.articlesCreateContainer {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 10;
+  justify-content: center;
+}
+
+.articlesCreateBox {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+}
+
+.articlesCreateTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.articlesCreateTitle {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.articleCreateFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.articlesCreateForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articlesCreateFormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.articlesCreateFormTitleTextarea {
+  max-width: 100%;
+  height: 15px;
+  resize: none;
+}
+
+.articlesCreateFormDescriptionTextarea {
+  max-width: 100%;
+  resize: none;
+}
+
+.articleFormSubmitButton {
+  font-size: 20px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .articlesCreateContainer {
+    display: flex;
+    padding-top: 20px;
+    flex: 10;
+    justify-content: center;
+    max-width: 95%;
+  }
+
+  .articlesCreateBox {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+    max-width: 100%;
+  }
+
+  .articlesCreateTitleContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .articlesCreateFormDescriptionTextarea {
+    max-width: 100%;
+  }
+
+  .articleCreateFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+}

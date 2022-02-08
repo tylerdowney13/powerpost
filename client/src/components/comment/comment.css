@@ -1,0 +1,35 @@
+.comment {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.commentProfilePictureContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.commentProfilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.commentContainer {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 37px;
+}
+
+.commentUsername {
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.commentDate {
+  font-size: 10px;
+}

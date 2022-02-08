@@ -1,0 +1,22 @@
+.oneRMTableContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.oneRMTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+.oneRMTable thead {
+  background-color: grey;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.oneRMTable td {
+  text-align: center;
+  padding: 5px 30px;
+  border: 1px solid black;
+}

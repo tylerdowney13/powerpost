@@ -1,0 +1,27 @@
+.commentsContainer {
+  display: flex;
+  padding-bottom: 5px;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.commentsTitle {
+  padding-bottom: 5px;
+}
+
+.commentsHr {
+  padding: 5px 0;
+}
+
+.newCommentContainer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.newCommentTextArea {
+  width: 80%;
+  min-height: 40px;
+  resize: none;
+}

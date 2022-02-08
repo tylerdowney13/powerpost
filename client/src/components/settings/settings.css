@@ -1,0 +1,58 @@
+.settings {
+  flex: 10;
+}
+
+.settingsWrapper {
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.settingsTitle {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.settingsProfilePicture {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.settingsProfilePictureTitleText {
+  font-size: 20px;
+}
+
+.settingsCurrentProfilePicture {
+  width: 30%;
+  min-width: 100px;
+  padding: 10px;
+}
+
+.settingsCurrentProfilePictureUpdateButtonContainer {
+  display: flex;
+  padding-left: 45px;
+}
+
+.settingsCoverPicture {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.settingsCoverPictureTitleText {
+  font-size: 20px;
+}
+
+.settingsCoverPictureTitleText {
+  font-size: 20px;
+}
+
+.settingsCurrentCoverPicture {
+  width: 30%;
+  min-width: 100px;
+  padding: 10px;
+}
+
+.settingsCurrentCoverPictureUpdateButtonContainer {
+  display: flex;
+  padding-left: 45px;
+}

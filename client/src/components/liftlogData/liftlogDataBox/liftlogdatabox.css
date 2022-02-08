@@ -1,0 +1,98 @@
+.liftlogDataboxContainer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.liftlogDatabox {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  width: 95%;
+}
+
+.liftlogDataboxContent {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.liftlogDataboxButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.liftlogDataboxButton {
+  width: 40%;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.liftlogDataboxButtonSelected {
+  width: 40%;
+  color: white;
+  background-color: rgb(187, 3, 3);
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.liftlogDataboxButton:hover {
+  background-color: rgb(255, 36, 36);
+}
+
+.liftlogDataboxGraphboxContainer {
+  padding-top: 10px;
+}
+
+.liftlogDataboxGraphbox {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.liftlogDataboxAddDataContainer {
+  padding-top: 10px;
+}
+
+.liftlogDataboxAddData {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .liftlogDataboxContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px 0;
+    padding-left: 10px;
+  }
+
+  .liftlogDataboxButton {
+    width: 40%;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 0.5em;
+  }
+
+  .liftlogDataboxButtonSelected {
+    width: 40%;
+    color: white;
+    background-color: rgb(187, 3, 3);
+    border-radius: 5px;
+    font-size: 0.5em;
+  }
+}

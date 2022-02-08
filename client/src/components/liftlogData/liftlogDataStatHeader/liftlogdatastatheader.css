@@ -1,0 +1,68 @@
+.liftlogDataStatHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.liftlogDataStatHeaderTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.liftlogDataStatHeaderTitle {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.liftlogDataStatHeaderStatsTableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.liftlogDataStatHeaderStatsTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.liftlogDataStatHeaderStatsTable thead {
+  background-color: rgb(233, 233, 233);
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.liftlogDataStatHeaderStatsTable tr {
+  text-align: center;
+}
+
+.liftlogDataStatHeaderStatsTable td {
+  padding: 10px 10px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .liftlogDataStatHeaderTitle {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .liftlogDataStatHeaderStatsTableContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    padding-left: 10px;
+  }
+
+  .liftlogDataStatHeaderStatsTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: small;
+    max-width: 90%;
+  }
+}

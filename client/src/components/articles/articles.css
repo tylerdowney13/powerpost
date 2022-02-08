@@ -1,0 +1,31 @@
+.articlesFlexbox {
+  display: flex;
+  flex: 10;
+}
+
+.articlesTitleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.articlesTitleSpan {
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+  text-shadow: 0.05em 0.05em 0.05em black;
+}
+
+.articlesContainerContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.articlesCreateArticleButton {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+.liftlogCreate {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.liftlogCreateTitleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.liftlogCreateTitleText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.liftlogCreateFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.liftlogInputContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 0;
+}
+
+.liftlogSquatFormLabel {
+  font-size: 20px;
+  padding-right: 26px;
+}
+
+.liftlogBenchFormLabel {
+  font-size: 20px;
+  padding-right: 23px;
+}
+
+.liftlogDeadliftFormLabel {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.liftlogWeightclassFormLabel {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.liftlogFormInput {
+  width: 50px;
+}
+
+.liftlogFormSpan {
+  padding-left: 10px;
+}
+
+.liftlogFormSubmitButtonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.liftlogFormSubmitButton {
+  width: 150px;
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}

@@ -1,0 +1,123 @@
+.oneRMCalculator {
+  flex: 10;
+}
+
+.oneRMCalculatorTitleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.oneRMCalculatorTitle {
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+  text-shadow: 0.05em 0.05em 0.05em black;
+}
+
+.oneRMCaculatorContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.oneRMCalculatorWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  width: 95%;
+}
+
+.oneRMCalculatorTopContainer {
+  padding: 5px;
+}
+
+.oneRMCalculatorTopBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  width: 95%;
+}
+
+.oneRMCalculatorTopBoxLabel {
+  padding: 0 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.oneRMCalculatorTopBoxInput {
+  width: 50px;
+  font-size: 20px;
+}
+
+.oneRMCalculatorTopBoxButtonContainer {
+  padding-left: 20px;
+}
+
+.oneRMCalculatorTopBoxButton {
+  height: 30px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.oneRMCalculatorTopBoxButton:hover {
+  background-color: rgb(253, 70, 70);
+}
+
+.oneRMCalculatorTableContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 95%;
+}
+
+.oneRMCalculatorTableBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0.1em 0.1em 0.1em 0.2em lightgrey;
+  width: 100%;
+  padding: 10px 0;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .oneRMCalculator {
+    flex: 10;
+    max-width: 100%;
+  }
+
+  .oneRMCalculatorTitle {
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+    text-shadow: 0.05em 0.05em 0.05em black;
+  }
+
+  .oneRMCalculatorTopBoxLabel {
+    padding: 0 10px;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .oneRMCalculatorTopBoxButton {
+    height: 20px;
+    font-size: small;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+  }
+
+  .oneRMCalculatorTopBoxInput {
+    width: 25px;
+    height: 15px;
+    font-size: 10px;
+  }
+}
